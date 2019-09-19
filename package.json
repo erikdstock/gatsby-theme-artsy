@@ -8,7 +8,12 @@
     "build": "yarn workspace example build"
   },
   "workspaces": [
-    "gatsby-theme-minimal",
+    "gatsby-theme-artsy",
     "example"
-  ]
+  ],
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0"
+  }
 }
