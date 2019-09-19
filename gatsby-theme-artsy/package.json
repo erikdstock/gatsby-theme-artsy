@@ -2,13 +2,19 @@
   "name": "gatsby-theme-artsy",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "author": "Erik Stockmeier <erik.d.stock@gmail.com> (@erikdstock)",
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": "^2.6.0"
+    "@artsy/palette": "^4.17.7",
+    "@types/styled-components": "^4.1.19",
+    "gatsby": "^2.6.0",
+    "styled-components": "^4.3.2"
   },
   "dependencies": {
     "@artsy/palette": "^4.17.7",
-    "gatsby-plugin-typescript": "^2.1.8"
+    "@types/styled-components": "^4.1.19",
+    "gatsby-plugin-styled-components": "^3.1.5",
+    "gatsby-plugin-typescript": "^2.1.8",
+    "styled-components": "^4.3.2"
   }
 }

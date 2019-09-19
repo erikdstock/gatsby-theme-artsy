@@ -2,13 +2,15 @@
   "name": "example",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "christopherbiscardi <chris@christopherbiscardi.com> (@chrisbiscardi)",
+  "author": "Erik Stockmeier <erik.d.stock@gmail.com> (@erikdstock)",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
   "dependencies": {
+    "@artsy/palette": "^4.17.7",
     "gatsby": "^2.15.18",
     "gatsby-theme-artsy": "^1.0.0",
     "react": "^16.9.0",

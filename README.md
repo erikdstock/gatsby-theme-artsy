@@ -4,8 +4,17 @@
   </a>
 </p>
 <h1 align="center">
-  Starter for creating a Gatsby Theme workspace
+  Gatsby + Artsy starter
 </h1>
+
+This is a gatsby theme for working with the artsy ecosystem. It currently supports [@artsy/palette](https://github.com/artsy/palette).
+
+TODOS:
+- [ ] Add gatsby-source-graphql and client-side graphql connection (apollo/boost client)
+- [ ] Add optional authentication provider with config options
+- [ ] Set up some tests maybe
+- [ ] Add vscode config, plugins, husky git hooks, etc
+- [ ] Everything below this section of the README
 
 ```shell
 gatsby new my-theme https://github.com/gatsbyjs/gatsby-starter-theme-workspace
@@ -42,7 +51,7 @@ some point to be `gatsby-theme-{my-theme-name}`. Also change the
 example directory's `package.json`/`gatsby-config.js` to match the chosen name.
 
 - `gatsby-theme-artsy/`
-  - `gatsby-config.js`: An empty gatsby-config that you can use as a starting point for building functionality into your theme.
+  - `gatsby-config.js`: A Gatsby theme for automatically including artsy dependencies.
   - `index.js`: Since themes also function as plugins, this is an empty file that
     gatsby needs to use this theme as a plugin.
   - `package.json`: The dependencies that your theme will pull in when people install it. `gatsby` should be a `peerDependency`.
